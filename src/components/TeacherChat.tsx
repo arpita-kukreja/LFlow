@@ -26,7 +26,7 @@ interface QuizData {
   questions: QuizQuestion[];
 }
 
-const GEMINI_API_KEY = 'AIzaSyAkufDKqoXYUuYupmKxeJ3z36p4Y0Wwr04'; // Replace with your actual API key
+const GEMINI_API_KEY = ''; // Replace with your actual API key
 const GEMINI_API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent';
 
 const TeacherChat = () => {
